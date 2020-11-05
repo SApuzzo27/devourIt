@@ -12,6 +12,7 @@ connection = mysql.createConnection(process.env.JAWSDB_URL);
   password: "Charlie27!",
   database: "burgers_db"
 });
+
 };
 
 connection.connect(function(err) {
